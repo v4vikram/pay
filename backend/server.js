@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/payment", paymentRoutes);
 app.get("/", (req, res) => {
-  res.send("Payment API is running?");
+  res.send("Payment API is running??");
 })
 app.listen(4000, () => {
   console.log("Payment server is running on port 4000");
